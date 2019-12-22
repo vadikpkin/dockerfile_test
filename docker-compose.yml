@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  node-app:
+    build: .
+    image: 38e84241d9aa
+    ports:
+      - '9999:9999'
